@@ -1,5 +1,24 @@
 # url-shortener
 
 # Project Structure
--------------------
-<img width="285" alt="image" src="https://github.com/siddharth-sable/url-shortener/assets/66620788/9cf383ea-883c-4136-a7a6-e3ba4415277c">
+```
+.
+├── api
+│   ├── Dockerfile
+│   ├── database
+│   │   └── database.go
+│   ├── go.mod
+│   ├── go.sum
+│   ├── helpers
+│   │   └── helpers.go
+│   ├── main.go
+│   └── routes
+│       ├── resolve.go
+│       └── shorten.go
+├── data
+├── db
+│   └── Dockerfile
+└── docker-compose.yml
+
+6 directories, 10 files
+```
